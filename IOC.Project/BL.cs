@@ -12,7 +12,6 @@ namespace IOC.Project
 
         public BL()
         {
-            _dal = new DAL();
         }
 
         public List<Prodcut> GetProducts()
