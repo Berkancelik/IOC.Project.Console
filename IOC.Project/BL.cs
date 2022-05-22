@@ -8,13 +8,13 @@ namespace IOC.Project
 {
     public class BL
     {
-        private DAL _dal {get; set;}
+        private IDAL _dal {get; set;}
 
         public BL()
         {
         }
 
-        public List<Prodcut> GetProducts()
+        public List<Product> GetProducts()
         {
             return _dal.GetProducts();
         }

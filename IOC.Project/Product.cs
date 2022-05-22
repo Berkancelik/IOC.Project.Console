@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IOC.Project
 {
-    public class Prodcut
+    public class Product
     {
         public int Id { get; set; }
         public string Name { get; set; }
